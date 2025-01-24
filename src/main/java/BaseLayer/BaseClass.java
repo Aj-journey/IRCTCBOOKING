@@ -23,7 +23,7 @@ public class BaseClass {
 	
 	
 	
-	public void initialization(String browsername) throws IOException
+	public static void initialization(String browsername) throws IOException
 	{
 		if(browsername.equalsIgnoreCase("chrome"))
 		{
