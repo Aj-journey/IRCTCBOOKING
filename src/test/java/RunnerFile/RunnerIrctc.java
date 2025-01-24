@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 			
 				features="src/test/java/FeatureFiles",
 				glue="StepDefinition",
-				dryRun=true,
+				dryRun=false,
 				monochrome=true
 		)
 
